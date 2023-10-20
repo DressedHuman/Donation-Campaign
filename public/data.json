@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "category": "education",
+        "title": "Empower Underprivileged Children",
+        "description": "Join us in our mission to provide quality education to underprivileged children. Your donation will make a significant impact by providing books, school supplies, and access to quality teachers. Together, we can break the cycle of poverty and empower these children to build a brighter future.",
+        "donationPrice": 50,
+        "card-bg": "#FF444A",
+        "category-bg": "#FF444A",
+        "text-color": "#FF444A",
+        "imageURL": "https://i.ibb.co/rQRhn1s/education-1.jpg"
+    },
+    {
+        "id": 2,
+        "category": "education",
+        "title": "Scholarships for Higher Education",
+        "description": "Invest in the next generation of leaders and innovators. Your donation will fund scholarships for deserving students who dream of pursuing higher education but face financial barriers. By contributing, you can change lives and help these students reach their full potential. Let's make education accessible to all.",
+        "donationPrice": 100,
+        "card-bg": "#FF444A",
+        "category-bg": "#FF444A",
+        "text-color": "#FF444A",
+        "imageURL": "https://i.ibb.co/qxxPWPJ/copy-space-boy-with-books-showing-ok-sign-23-2148469950.jpg"
+    },
+    {
+        "id": 3,
+        "category": "education",
+        "title": "Support Teachers and Schools",
+        "description": "Our educators work tirelessly to shape the minds of the future, but they need support. Your donation will directly benefit teachers and schools, providing resources, professional development, and technology to enhance the learning experience. Help us ensure that every student has access to a world-class education.",
+        "donationPrice": 75,
+        "card-bg": "#FF444A",
+        "category-bg": "#FF444A",
+        "text-color": "#FF444A",
+        "imageURL": "https://i.ibb.co/9sMR7Nk/education-3.jpg"
+    },
+    {
+        "id": 4,
+        "category": "food",
+        "title": "Fight Hunger, Feed Hope",
+        "description": "Hunger is a daily reality for many in our community. Your donation will go a long way in providing nutritious meals to those who struggle to put food on the table.",
+        "donationPrice": 20,
+        "card-bg": "#F87147",
+        "category-bg": "#F87147",
+        "text-color": "#F87147",
+        "imageURL": "https://i.ibb.co/CPFwwh2/food-1.jpg"
+    },
+    {
+        "id": 5,
+        "category": "food",
+        "title": "Meals for Seniors",
+        "description": "Many elderly individuals are isolated and in need of proper nutrition. Your donation will help us deliver meals to seniors, ensuring they receive nourishing food and companionship.",
+        "donationPrice": 35,
+        "card-bg": "#F87147",
+        "category-bg": "#F87147",
+        "text-color": "#F87147",
+        "imageURL": "https://i.ibb.co/VCPZXpT/food-2.jpg"
+    },
+    {
+        "id": 6,
+        "category": "food",
+        "title": "School Lunch Program",
+        "description": "Support our school lunch program that provides healthy meals to children from low-income families. Your contribution ensures that every child can focus on learning without the distraction of an empty stomach.",
+        "donationPrice": 15,
+        "card-bg": "#F87147",
+        "category-bg": "#F87147",
+        "text-color": "#F87147",
+        "imageURL": "https://i.ibb.co/b7rmffv/food-3.jpg"
+    },
+    {
+        "id": 7,
+        "category": "clothing",
+        "title": "Clothe the Needy",
+        "description": "Help us provide warm clothing and essentials to those in need. Your contribution will ensure that vulnerable individuals and families have access to clean and comfortable clothing during harsh weather conditions.",
+        "donationPrice": 30,
+        "card-bg": "#79C23F",
+        "category-bg": "#79C23F",
+        "text-color": "#79C23F",
+        "imageURL": "https://i.ibb.co/ZVj4rmb/clothing-1.jpg"
+    },
+    {
+        "id": 8,
+        "category": "clothing",
+        "title": "Dress for Success",
+        "description": "Support our initiative to provide professional attire to job seekers who can't afford suitable clothing for interviews and work.",
+        "donationPrice": 40,
+        "card-bg": "#79C23F",
+        "category-bg": "#79C23F",
+        "text-color": "#79C23F",
+        "imageURL": "https://i.ibb.co/Vm8pMHH/clothing-2.jpg"
+    },
+    {
+        "id": 9,
+        "category": "clothing",
+        "title": "Warmth for Winter",
+        "description": "Winter can be harsh for those without warm clothing. Your donation will help us supply winter coats, gloves, and scarves to those in need.",
+        "donationPrice": 25,
+        "card-bg": "#79C23F",
+        "category-bg": "#79C23F",
+        "text-color": "#79C23F",
+        "imageURL": "https://i.ibb.co/YB4nVm5/clothing-3.jpg"
+    },
+    {
+        "id": 10,
+        "category": "health",
+        "title": "Medical Supplies for Vulnerable Communities",
+        "description": "Your support is critical in providing essential medical supplies to vulnerable communities. Your donation helps us deliver medical supplies to underserved areas, saving lives and promoting better health.",
+        "donationPrice": 30,
+        "card-bg": "#0052FF",
+        "category-bg": "#0052FF",
+        "text-color": "#0052FF",
+        "imageURL": "https://i.ibb.co/QcDVWpN/health-1.jpg"
+    },
+    {
+        "id": 11,
+        "category": "health",
+        "title": "Mental Health Awareness",
+        "description": "Support our efforts to raise awareness about mental health issues and provide resources for individuals in need. Your donation contributes to breaking the stigma and promoting mental well-being for all.",
+        "donationPrice": 30,
+        "card-bg": "#0052FF",
+        "category-bg": "#0052FF",
+        "text-color": "#0052FF",
+        "imageURL": "https://i.ibb.co/HpYYw52/nurse-measuring-patient-blood-pressure-53876-14933.jpg"
+    },
+    {
+        "id": 12,
+        "category": "health",
+        "title": "Access to Clean Water",
+        "description": "Access to clean and safe drinking water is a basic human right. Your contribution will help us provide clean water solutions to communities in need, preventing waterborne diseases and improving overall well-being.",
+        "donationPrice": 25,
+        "card-bg": "#0052FF",
+        "category-bg": "#0052FF",
+        "text-color": "#0052FF",
+        "imageURL": "https://i.ibb.co/BZWf7bZ/health-3.jpg"
+    }
+]
