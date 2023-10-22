@@ -1,16 +1,16 @@
-import { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useContext, useEffect, useState } from "react";
 import { getDonatedItemIds } from "../../utilities/LocalStorage";
 import Donation from "../Donation/Donation";
 import NotFound from "../NotFound/NotFound";
+import { DisplayDataContext } from "../Root/Root";
 
 const Donations = () => {
     const [donations, setDonations] = useState([]);
-    const allDonationItems = useLoaderData();
+    const { donationItems } = useContext(DisplayDataContext);
 
     useEffect(() => {
         const donatedItemIds = getDonatedItemIds();
-        const donatedItems = allDonationItems.filter(donationItem => donatedItemIds.includes(donationItem.id));
+        const donatedItems = donationItems.filter(donationItem => donatedItemIds.includes(donationItem.id));
 
         setDonations(donatedItems);
     }, [])

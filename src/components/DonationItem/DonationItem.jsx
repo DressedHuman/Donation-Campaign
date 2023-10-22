@@ -1,11 +1,13 @@
 import PropTypes from 'prop-types'
-import { useLoaderData, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { saveDonatedItemIds } from '../../utilities/LocalStorage';
 import { Slide, ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useContext } from 'react';
+import { DisplayDataContext } from '../Root/Root';
 
 const DonationItem = () => {
-    const donationItems = useLoaderData();
+    const { donationItems } = useContext(DisplayDataContext);
     const { paramId } = useParams();
     const donationItem = donationItems.find(donationItem => donationItem.id == paramId);
     const { id, title, description, donationPrice, text_color, imageURL } = donationItem;
