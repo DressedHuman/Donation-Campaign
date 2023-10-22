@@ -21,7 +21,7 @@ const DonationItem = () => {
     }
 
     return (
-        <div className='mx-20'>
+        <div className='mx-3 md:mx7 lg:mx-20'>
             <>
                 <div className="hero h-[570px] relative rounded" style={{ backgroundImage: `url(${imageURL})` }}>
                     <div className="hero-overlay h-[130px] absolute bottom-0 bg-[#0b0b0b] bg-opacity-[50%]"></div>
