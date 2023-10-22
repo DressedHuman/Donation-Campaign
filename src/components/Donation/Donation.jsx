@@ -4,8 +4,8 @@ const Donation = ({ donationItem }) => {
     const { title, category, donationPrice, imageURL, category_bg, card_bg, text_color } = donationItem;
 
     return (
-        <div className="flex rounded-lg" style={{backgroundColor: category_bg}}>
-            <img src={imageURL} alt={title} className="w-56 h-full object-cover rounded-l-lg" />
+        <div className="flex flex-col md:flex-row rounded-lg" style={{backgroundColor: category_bg}}>
+            <img src={imageURL} alt={title} className="md:w-56 h-full object-cover rounded-t-lg md:rounded-l-lg md:rounded-tr-none" />
             <div className="p-6">
                 <button className="py-1 px-[10px] rounded mb-2 text-sm" style={{ color: text_color, backgroundColor: card_bg }}>{category}</button>
 
