@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom";
 import './NavBar.css'
 import Banner from "../Banner/Banner";
+import PropTypes from 'prop-types'
 
 const NavBar = ({banner}) => {
     return (
         <div className="mb-20">
-            <div className={`flex justify-between items-center ${banner && "px-36"}`}>
+            <div className={`flex flex-col md:flex-row mx-auto justify-center md:justify-between items-center gap-3 ${"px-7 md:px-7 lg:px-36"}`}>
                 <div className="flex">
                     <img src="/src/assets/olive-tree.png" className="w-14" alt="" />
                     <div>
@@ -25,5 +26,9 @@ const NavBar = ({banner}) => {
         </div>
     );
 };
+
+NavBar.propTypes = {
+    banner: PropTypes.bool,
+}
 
 export default NavBar;

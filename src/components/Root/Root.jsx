@@ -5,10 +5,10 @@ const Root = () => {
     const location = useLocation();
     return (
         <>
-            {location.pathname === '/' ? <div className='py-12'>
+            {location.pathname === '/' ? <div className='py-3 lg:py-12'>
                 <NavBar banner={true} />
                 <Outlet />
-            </div> : <div className='px-36 py-12'>
+            </div> : <div className='py-3 lg:py-12'>
                 <NavBar />
                 <Outlet />
             </div>}
