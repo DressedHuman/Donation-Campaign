@@ -1,11 +1,15 @@
 import { Cell, Pie, PieChart } from "recharts";
 import { getDonatedItemIds } from "../../utilities/LocalStorage";
 import TextWithBar from "../TextWithBar/TextWithBar";
+import { useContext } from "react";
+import { DisplayDataContext } from "../Root/Root";
 
 const Statistics = () => {
     const donatedItems = getDonatedItemIds().length;
+    const { donationItems } = useContext(DisplayDataContext);
+
     const data = [
-        { name: 'Total Donations', value: 12 - donatedItems },
+        { name: 'Total Donations', value: donationItems.length - donatedItems },
         { name: 'Your Donations', value: donatedItems },
     ]
 
